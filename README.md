@@ -16,5 +16,7 @@ conda env update --file conda-env.yml
 
 Or you could use pip as well
 ```
-pip install -r requirements.txt
+python -m venv venv  # 创建名为 "venv" 的虚拟环境
+source venv/bin/activate  # 激活虚拟环境（在 Unix/Linux 系统上）
+pip install -r requirements.txt  # 安装依赖项
 ```
