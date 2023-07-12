@@ -5,3 +5,4 @@ data/podcast_long.*
 data/paddlespeech*.wav
 data/tts.*
 data/transcripts
+venv/
